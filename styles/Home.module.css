@@ -1,5 +1,42 @@
 
 .description{
   width: 30vw;
-  margin-top: 5px;
+  margin-top: 15px;
+}
+.actionButtons{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.workSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.projectContainer{
+  display: flex;
+  justify-content: center;
+  gap:100px;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .heroText{
+    text-align: center;
+  }
+  .description{
+    width: 90vw;
+    text-align: center;
+  }
+  .actionButtons{
+    justify-content: center;
+  }
+
+  .projectContainer{
+    flex-direction: column;
+  }
 }
