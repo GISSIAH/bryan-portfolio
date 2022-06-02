@@ -6,7 +6,12 @@ function MyApp({ Component, pageProps }) {
   const theme = createTheme({
 
     palette: {
-
+      primary:{
+        main:"#07080A"
+      },
+      secondary:{
+        main:"#AEBAC9"
+      }
     },
     typography: {
       fontFamily: "Open Sans, sans serif",
