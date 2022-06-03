@@ -15,7 +15,19 @@ function MyApp({ Component, pageProps }) {
     },
     typography: {
       fontFamily: "Open Sans, sans serif",
-      
+      h3:{
+        fontFamily: "Open Sans",
+        [`@media screen and (max-width: 1532px)`]: {
+          fontSize: "2.85rem"
+        }, [`@media screen and (max-width: 1200px)`]: {
+          fontSize: "1.75rem"
+        }, [`@media screen and (max-width: 900px)`]: {
+          fontSize: "1.625rem"
+        }, [`@media screen and (max-width: 600px)`]: {
+          fontSize: "1.35rem"
+        },
+        fontWeight: 600
+      }
     }
 
   })

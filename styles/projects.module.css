@@ -3,9 +3,13 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+@media (max-width: 1024px) {
+    .simpleProjectDesc{
+        width: 100%;
+    }
+}
 @media (max-width: 768px) {
     .simpleProjectDesc{
-        width: 75vw;
+        width: 100%;
     }
 }

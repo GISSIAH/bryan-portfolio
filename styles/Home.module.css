@@ -22,6 +22,14 @@
   justify-content: center;
   gap:100px;
   margin-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 1024px) {
+  .projectContainer{
+    gap:20px;
+  }
 }
 
 @media (max-width: 768px) {
