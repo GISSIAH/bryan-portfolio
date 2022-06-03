@@ -18,7 +18,7 @@ export default function Navbar() {
                 </div>
                 <div className={styles.siteLinks}>
                     <Link href="/"><Typography variant="body1" sx={{ fontWeight: 500 }}>Work</Typography></Link>
-                    <Link href="/"><Typography variant="body1" sx={{ fontWeight: 500 }}>Resume</Typography></Link>
+                    <Link href="/resume"><Typography variant="body1" sx={{ fontWeight: 500 }}>Resume</Typography></Link>
                     <Link href="/"><Typography variant="body1" sx={{ fontWeight: 500 }}>Contact</Typography></Link>
                 </div>
                 <div>
@@ -38,9 +38,9 @@ export default function Navbar() {
                         setBarClicked(!barClicked)
                     }}>
                         {barClicked ?
-                            <CgClose size={30} />
+                            <CgClose size={25} />
                             :
-                            <FaBars size={30} />
+                            <FaBars size={25} />
                         }
 
                     </IconButton>
@@ -54,7 +54,7 @@ export default function Navbar() {
                     }}
                     className={barClicked ? styles.mobileSiteLinks : styles.mobileSiteLinksHidden}>
                     <Link href="/"><Typography variant="body1" sx={{ fontWeight: 500 }}>Work</Typography></Link>
-                    <Link href="/"><Typography variant="body1" sx={{ fontWeight: 500 }}>Resume</Typography></Link>
+                    <Link href="/resume"><Typography variant="body1" sx={{ fontWeight: 500 }}>Resume</Typography></Link>
                     <Link href="/"><Typography variant="body1" sx={{ fontWeight: 500 }}>Contact</Typography></Link>
                     <Link href="/">
                         <AiFillGithub size={30} />

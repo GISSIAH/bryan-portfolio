@@ -1,0 +1,44 @@
+.desc{
+    margin-top: 25px;
+    width: 40vw;
+}
+
+.education{
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.work{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+
+.skills{
+    margin-top: 20px;
+    
+}
+.action{
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+@media (max-width: 768px) {
+    .desc{
+        width: 90vw;
+    }
+    .education{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .work{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .skills{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
