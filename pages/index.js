@@ -46,9 +46,9 @@ export default function Home() {
 
 
         <div className={styles.projectContainer}>
-          <SimpleProject title="Zamalo" chips={[{ name: "Node Js" }, { name: "React" }, { name: "Mongo Db" }]} desc="A real estate marketing platform to advertize houses, plots and warehouses for rent or sale" />
-          <SimpleProject title="Zamalo" chips={[{ name: "Node Js" }, { name: "React" }, { name: "Mongo Db" }]} desc="A real estate marketing platform to advertize houses, plots and warehouses for rent or sale" />
-          <SimpleProject title="Zamalo" chips={[{ name: "Node Js" }, { name: "React" }, { name: "Mongo Db" }]} desc="A real estate marketing platform to advertize houses, plots and warehouses for rent or sale" />
+          <SimpleProject title="Zamalo" chips={[{ name: "Node Js" }, { name: "React" }, { name: "Mongo Db" }]} desc="A real estate marketing platform to advertize houses, plots and warehouses for rent or sale" img="https://res.cloudinary.com/attic-gis/image/upload/v1654425108/zamalo_home-min_xk19ft.png" git="https://github.com/GISSIAH" preview="https://www.zamalomarket-mw.com"/>
+          <SimpleProject title="Zamalo" chips={[{ name: "Node Js" }, { name: "React" }, { name: "Mongo Db" }]} desc="A real estate marketing platform to advertize houses, plots and warehouses for rent or sale" img=""/>
+          <SimpleProject title="Zamalo" chips={[{ name: "Node Js" }, { name: "React" }, { name: "Mongo Db" }]} desc="A real estate marketing platform to advertize houses, plots and warehouses for rent or sale" img=""/>
         </div>
 
       </div>
