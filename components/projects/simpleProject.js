@@ -19,7 +19,7 @@ export default function SimpleProject(props) {
                 })}
             </Box>
             <div className={styles.simpleProjectDesc}>
-                <Typography varinat="body1" color="gray" sx={{ fontWeight: 400 }}>{props.desc}</Typography>
+                <Typography varinat="body1" color="gray" sx={{ fontWeight: 400,textAlign:'left' }}>{props.desc}</Typography>
             </div>
 
             <Box sx={{ display: 'flex', gap: 2 }}>

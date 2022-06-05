@@ -16,7 +16,7 @@ export default function Home() {
       <Grid container maxWidth={true}
         marginTop={8}
         spacing={0}
-        gap={2}
+        gap={4}
         alignItems="center"
         justifyContent="center">
         <Grid item >
