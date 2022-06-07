@@ -17,9 +17,9 @@ export default function Navbar() {
                     <Link href="/"><Typography variant="h5" sx={{ fontWeight: 700, letterSpacing: 2 }}>BRYAN</Typography></Link>
                 </div>
                 <div className={styles.siteLinks}>
-                    <Link href="/"><a style={{textDecoration:'none', color:'black'}}><Typography variant="body1" sx={{ fontWeight: 500 }}>Work</Typography></a></Link>
+                    <Link href="/"><a style={{textDecoration:'none', color:'black'}}><Typography variant="body1" sx={{ fontWeight: 500 }}>Home</Typography></a></Link>
                     <Link href="/resume"><a style={{ textDecoration: 'none', color:'black' }}><Typography variant="body1" sx={{ fontWeight: 500 }}>Resume</Typography></a></Link>
-                    <Link href="/"><a style={{ textDecoration: 'none' , color:'black'}}><Typography variant="body1" sx={{ fontWeight: 500 }}>Contact</Typography></a></Link>
+                    <Link href="/contact"><a style={{ textDecoration: 'none' , color:'black'}}><Typography variant="body1" sx={{ fontWeight: 500 }}>Contact</Typography></a></Link>
                 </div>
                 <Box sx={{display:'flex',gap:2}}>
                     <Link href="https://github.com/GISSIAH">
@@ -57,7 +57,7 @@ export default function Navbar() {
                         default: { duration: 3 },
                     }}
                     className={barClicked ? styles.mobileSiteLinks : styles.mobileSiteLinksHidden}>
-                    <Link href="/"><Typography variant="body1" sx={{ fontWeight: 500 }}>Work</Typography></Link>
+                    <Link href="/"><Typography variant="body1" sx={{ fontWeight: 500 }}>Home</Typography></Link>
                     <Link href="/resume"><Typography variant="body1" sx={{ fontWeight: 500 }}>Resume</Typography></Link>
                     <Link href="/"><Typography variant="body1" sx={{ fontWeight: 500 }}>Contact</Typography></Link>
                     <Link href="https://github.com/GISSIAH">

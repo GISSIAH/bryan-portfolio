@@ -29,26 +29,24 @@ export default function Home() {
           </div>
 
           <div className={styles.description}>
-            <Typography color="gray" variant="body1" sx={{ fontWeight: 400 }}>{`I'm a Junior Javascript developer based in Lilongwe, Malawi. I have 1 year of professional experience and i specialize in creating web apps. I am open for new opportunities and interesting projects.`}</Typography>
+            <Typography color="gray" variant="body1" sx={{ fontWeight: 400 }}>{`I'm a Junior Javascript developer based in Lilongwe, Malawi. I have over 2 years of professional experience and i specialize in creating web apps. I am open for new opportunities and interesting projects.`}</Typography>
           </div>
           <div className={styles.actionButtons}>
-            <Button variant="contained">Contact me</Button>
-            <Button variant="outlined">Check my work</Button>
+            <Button variant="contained" href="/resume">View Resume</Button>
+            <Button variant="outlined" href="/contact">Contact me</Button>
           </div>
         </Grid>
 
       </Grid>
 
       <div className={styles.workSection}>
-        <Typography variant="h3" sx={{ fontWeight: 700 }}>Work</Typography>
+        <Typography variant="h3" sx={{ fontWeight: 700 }}>Recent Work</Typography>
         <Typography variant='body1' color="gray">Check all my public projects</Typography>
         <Typography variant='body1' color="gray">If you have questions, please feel free to contact me.</Typography>
 
 
         <div className={styles.projectContainer}>
-          <SimpleProject title="Zamalo" chips={[{ name: "Node Js" }, { name: "React" }, { name: "Mongo Db" }]} desc="A real estate marketing platform to advertize houses, plots and warehouses for rent or sale" img="https://res.cloudinary.com/attic-gis/image/upload/v1654425108/zamalo_home-min_xk19ft.png" git="https://github.com/GISSIAH" preview="https://www.zamalomarket-mw.com"/>
-          <SimpleProject title="Zamalo" chips={[{ name: "Node Js" }, { name: "React" }, { name: "Mongo Db" }]} desc="A real estate marketing platform to advertize houses, plots and warehouses for rent or sale" img=""/>
-          <SimpleProject title="Zamalo" chips={[{ name: "Node Js" }, { name: "React" }, { name: "Mongo Db" }]} desc="A real estate marketing platform to advertize houses, plots and warehouses for rent or sale" img=""/>
+          <SimpleProject title="Zamalo" chips={[{ name: "Node Js" }, { name: "React" }, { name: "Mongo Db" }]} desc="A real estate marketing platform to advertize houses, plots and warehouses for rent or sale" img="https://res.cloudinary.com/attic-gis/image/upload/v1654425108/zamalo_home-min_xk19ft.png" git="https://github.com/GISSIAH" preview="https://www.zamalomarket-mw.com" />
         </div>
 
       </div>
