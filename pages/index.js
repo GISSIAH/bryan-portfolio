@@ -46,7 +46,8 @@ export default function Home() {
 
 
         <div className={styles.projectContainer}>
-          <SimpleProject title="Zamalo" chips={[{ name: "Node Js" }, { name: "React" }, { name: "Mongo Db" }]} desc="A real estate marketing platform to advertize houses, plots and warehouses for rent or sale" img="https://res.cloudinary.com/attic-gis/image/upload/v1654425108/zamalo_home-min_xk19ft.png" git="https://github.com/GISSIAH" preview="https://www.zamalomarket-mw.com" />
+          <SimpleProject title="Zamalo Real Estate Advertising" chips={[{ name: "Node Js" }, { name: "React" }, { name: "Mongo Db" }]} desc="A real estate marketing platform to advertize houses, plots and warehouses for rent or sale" img="https://res.cloudinary.com/attic-gis/image/upload/v1655220583/Screenshot_2022-06-14_172913_gjj4cp.png" git="https://github.com/GISSIAH" preview="https://zamalo.vercel.app/" />
+          <SimpleProject title="Jomac Shop Website" chips={[{ name: "Next JS" }, { name: "Material UI" }, { name: "REST API Integration" }]} desc="A website for a shop that sells various products related to construction and house mantaining" img="https://res.cloudinary.com/attic-gis/image/upload/v1655220386/Screenshot_2022-06-14_172523_cmtxms.png" git="https://github.com/GISSIAH/jomac" preview="https://jomacmw.netlify.app/" />
         </div>
 
       </div>
