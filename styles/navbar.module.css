@@ -6,6 +6,7 @@
 }
 .siteLinks{
     display: flex;
+    align-items: center;
     gap:50px
 }
 .mobileTopNav{
@@ -28,13 +29,14 @@
     .mobileTopNav{
         display: flex;
         justify-content: space-between;
-        padding-left: 5px;
+        padding-left: 20px;
+        padding-top: 20px;
         padding-right: 5px;
     }
     .mobileSiteLinks{
         display: flex;
         flex-direction: column;
-        padding-left: 15px;
+        padding-left: 20px;
         gap:5px;
     }
     .mobileSiteLinksHidden{
