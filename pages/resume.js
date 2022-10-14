@@ -62,21 +62,25 @@ export default function resume() {
           >
             Work Experience
           </Typography>
-          <ResumeItem
-            title="Geo-Information Systems Intern"
-            place="L.Gravam Consulting"
-            date="2019 - 2020"
+<ResumeItem
+            title="Software Engineer"
+            place="National Integrated Technologies Limited"
+            date="August 2022 to current"
           />
           <ResumeItem
             title="Software Developer Intern"
             place="Malawi University of Science & Technology"
             date="2020 - 2021"
-          />
+          />    
+              
+
           <ResumeItem
-            title="Software Engineer"
-            place="National Integrated Technologies Limited"
-            date="August 2022 to current"
+            title="Geo-Information Systems Intern"
+            place="L.Gravam Consulting"
+            date="2019 - 2020"
           />
+          
+          
         </div>
         <div className={styles.skills}>
           <Typography
